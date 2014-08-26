@@ -1,0 +1,38 @@
+<div class="row">
+	<div class="col-sm-12">
+		<h2>Register</h2>
+
+		<!-- Full Name field -->
+		<div class="form-group">
+			<label for="fullname">Full Name</label>
+			<input type="text" class="form-control" id="fullname" ng-model="user.fullname" placeholder="Full Name" />
+		</div>
+
+		<!-- Username field -->
+		<div class="form-group">
+			<label for="username">Username</label>
+			<input type="text" class="form-control" id="username" ng-model="user.username" placeholder="Username" />
+		</div>
+
+		<!-- Email field -->
+		<div class="form-group">
+			<label for="email">Email</label>
+			<input type="text" class="form-control" id="email" ng-model="user.email" placeholder="Email" />
+		</div>
+
+		<!-- Password field -->
+		<div class="form-group">
+			<label for="password">Password</label>
+			<input type="password" class="form-control" id="password" ng-model="user.password" placeholder="Password" />
+		</div>
+
+		<!-- Password field -->
+		<div class="form-group">
+			<label for="password">Confirm Password</label>
+			<input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password" />
+		</div>
+
+		<!-- Submit button -->
+		<button class="btn btn-primary" ng-click="submit()">Sign up</button>
+	</div>
+</div>
